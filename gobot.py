@@ -153,4 +153,4 @@ async def on_message(message) :
 				await client.logout()
 				await client.close()   
 
-client.run("NDQ1OTk2ODc1Njk5NTg1MDI0.DeiSyg.ZVxYPC-BfagDsLiKYSYiA3qYYmI")
+client.run("process.env.TOKEN")
